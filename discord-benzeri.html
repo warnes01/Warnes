@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Benzeri Kış Teması</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <span class="snowflake">❄️</span> Kış Discord
+            </div>
+            <ul class="channels">
+                <li># general</li>
+                <li># help</li>
+                <li># memes</li>
+                <li># gaming</li>
+            </ul>
+        </div>
+
+        <div class="chat-area">
+            <div class="chat-header">
+                <h2># general</h2>
+            </div>
+
+            <div class="messages" id="messages">
+                <!-- Dinamik mesajlar buraya gelecek -->
+            </div>
+
+            <div class="input-area">
+                <input type="text" id="messageInput" placeholder="Mesaj yazın..." />
+                <button onclick="sendMessage()">Gönder</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kar Animasyonu -->
+    <canvas id="snowCanvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
